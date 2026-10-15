@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BumiAtlas/mining-concession",
+  "title": "Indonesia Mining Concessions (ESDM IUP)",
+  "description": "Indonesian ESDM mining licences (IUP, IUPK, KK, PKP2B): holder, commodity, area, expiry.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BumiAtlas/mining-concession-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://bumiatlas.com/konsesi/tambang",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bumiatlas.com/mcp/mining"
+    }
+  ]
+}
